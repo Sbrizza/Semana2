@@ -5,13 +5,13 @@
   **/
 
 * {
-    margin: 0;
+    margin:0;
     padding: 0;
 }
 
 h2 {
     background-color: #fe7e02;
-    padding: 10px 5px 10px 5px;
+    padding: 5px 5px 5px 5px;
     color: white;
     text-align: center;
 }
@@ -34,7 +34,8 @@ div>p:first-child {
 }
 
 div img {
-    background: black;
+
+    background: white;
 }
 
 .botao-amarelo {
@@ -48,6 +49,7 @@ div img {
 
 .botao-amarelo:hover {
     background-color: #c44f00;
+    margin-bottom: auto;
 }
 
 .container {
@@ -103,16 +105,17 @@ table {
 
 td button {
     background-color: #fadf63;
-    width: 150px;
-    height: 30px;
-    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
     color: black;
 }
 
 .container-do-search {
+    image-orientation: flip;
     margin-top: 20px;
-    height: 100px;
-}
+    height: 10px;
+    }
 
 
 #back-button {
@@ -126,5 +129,12 @@ td button {
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: #635a3d;
+    padding:5px;
+    border: none;
+}
+.pesquisa{
+    width:400px;
+    height: 40px;
+    margin: 200px;
 }
