@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin:0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px;
+    grid-auto-rows:100px ;
+    grid-column-gap: 10px;
+
+}
+
+.container{
+display: grid;
+grid-template-columns: ;
+}
+
+header{
+    padding: 16px;
+    margin: 0;
+    background: black;
+}
+aside{
+    padding: 16px;
+    margin:0;
+    background: blue;
+}
+
+main{
+    margin: 0;
+    padding: 100px;
+    background: cadetblue;
+}
+
+footer{
+    margin: 0;
+    padding: 60px;
+    background:aquamarine;
+    grid-auto-rows:;
+}
+
+
+
+
+
